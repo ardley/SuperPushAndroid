@@ -28,7 +28,7 @@ public class IntenstigatorActivity extends Activity {
 		
 	}
 	
-	public boolean isConnected(){
+	public boolean isConnected(){						//Checks if connected to internet
         ConnectivityManager connMgr = (ConnectivityManager) getSystemService(Activity.CONNECTIVITY_SERVICE);
             NetworkInfo networkInfo = connMgr.getActiveNetworkInfo();
             if (networkInfo != null && networkInfo.isConnected()) 
