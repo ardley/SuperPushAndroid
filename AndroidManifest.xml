@@ -29,6 +29,12 @@
       	                </action>
       	        </intent-filter>
    	 	</receiver>
+   	 	<receiver android:name="HttpPostSender">
+      	        <intent-filter>
+                        <action android:name="com.example.superpushV1.HTTPPOSTSENDER_INTENT">
+      	                </action>
+      	        </intent-filter>
+   	 	</receiver>
    	 </application>
 
 </manifest>
