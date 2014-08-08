@@ -34,16 +34,16 @@ public class HttpPostSender extends BroadcastReceiver{
 	@Override
 	public void onReceive(Context context, Intent intent) {
 		// TODO Auto-generated method stub
-		if(isConnected()){ // Check connection and output it to the console
+		//if(isConnected()){ // Check connection and output it to the console
 			Log.w("1 ","You are connected -InstActiv");
-		}
-		else Log.w("1 ", "You are NOT connected -InstActiv");
+		//}
+		//else Log.w("1 ", "You are NOT connected -InstActiv");
 		toastmakersContext = context;
-		new HttpAsyncTask().execute("http://hmkcode.appspot.com/jsonservlet");
+		//new HttpAsyncTask().execute("http://hmkcode.appspot.com/jsonservlet");
 		// Extract data included in the Intent
 		//CharSequence intentData = intent.getCharSequenceExtra("message");	
 	}
-	
+/*	
 	
 	
 	
@@ -121,5 +121,5 @@ public class HttpPostSender extends BroadcastReceiver{
     }
 	
 	
-	
+*/	
 }
